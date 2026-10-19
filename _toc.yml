@@ -1,0 +1,37 @@
+# Table of contents: https://jupyterbook.org/en/stable/structure/toc.html
+# Chapter, section, figure and table numbers are written in the chapter files themselves.
+format: jb-book
+root: intro
+parts:
+  - caption: "Part I: Foundations"
+    chapters:
+      - file: chapters/ch01_hydrology_as_a_geophysical_science
+      - file: chapters/ch02_energy_climate_and_the_water_cycle
+  - caption: "Part II: Water in the atmosphere and its exchange with the surface"
+    chapters:
+      - file: chapters/ch03_water_vapor_and_the_lower_atmosphere
+      - file: chapters/ch04_atmospheric_boundary_layer_and_surface_fluxes
+      - file: chapters/ch05_precipitation
+      - file: chapters/ch06_interception_and_snow
+      - file: chapters/ch07_evaporation_physical_theory
+      - file: chapters/ch08_actual_evaporation_at_landscape_scale
+  - caption: "Part III: Water on and below the land surface"
+    chapters:
+      - file: chapters/ch09_shallow_water_flow
+      - file: chapters/ch10_overland_flow_and_flood_routing
+      - file: chapters/ch11_physics_of_porous_media
+      - file: chapters/ch12_infiltration_and_soil_surface_exchange
+      - file: chapters/ch13_groundwater_outflow_and_baseflow
+  - caption: "Part IV: Catchment response to precipitation"
+    chapters:
+      - file: chapters/ch14_streamflow_generation
+      - file: chapters/ch15_the_catchment_as_a_dynamical_system
+      - file: chapters/ch16_models_uncertainty_and_change
+  - caption: "Appendices"
+    chapters:
+      - file: appendices/appA_mathematical_tools
+      - file: appendices/appB_properties_of_water_and_moist_air
+      - file: appendices/appC_units_and_dimensions
+      - file: appendices/appD_solar_geometry_and_radiation
+      - file: appendices/appE_field_methods
+      - file: appendices/appF_data_sources
