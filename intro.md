@@ -4,7 +4,7 @@ An online textbook for the graduate Physical Hydrology course in the Department 
 
 ```{admonition} Work in progress
 :class: note
-The chapters are being written. The table of contents shows the planned structure of the book.
+All sixteen chapters and six appendices are now available. The Colab labs are being prepared and will be added as they are completed.
 ```
 
 The book follows water through the atmosphere, across the land surface and below it, and back to the stream. Each process is derived from the conservation of mass, momentum or energy, simplified step by step, and finally written in the lumped form that is used at the scale of a catchment. Along the way the book asks why such simple descriptions work as well as they do, and where they fail.
