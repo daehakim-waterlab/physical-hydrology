@@ -301,7 +301,7 @@ Real landscapes are patchworks of fields, forests, towns and water. When air cro
 \tag{4.13}
 \end{equation*}
 
-where $z_0$ is the larger of the two roughness lengths (Elliott, 1958). Only within the lowest 10% or so of this layer are the profiles in equilibrium with the new surface. A rule of thumb follows: a flux measured at height $z$ represents the local surface only if the **fetch**, the uniform upwind distance, is at least about 100 times $z$.
+where $z_0$ is the roughness length of the downwind surface (Elliott, 1958). Only within the lowest 10% or so of this layer are the profiles in equilibrium with the new surface. A rule of thumb follows: a flux measured at height $z$ represents the local surface only if the **fetch**, the uniform upwind distance, is at least about 100 times $z$.
 
 ### Footprints
 
@@ -407,7 +407,7 @@ glue("s5", float(ub5 * (4 - 0.1) / (2 * 0.4 * 0.25)), display=False)
 1. Over a surface with $z_{0m}$ = 0.1 m and $d_0$ = 0, the wind at 10 m is 4.0 m s⁻¹ in neutral conditions. Find $u_*$.
 2. With $u_*$ = 0.3 m s⁻¹, a sensible heat flux of 150 W m⁻² (air density 1.2 kg m⁻³, $\overline{\theta}_v$ ≈ 300 K), find the Obukhov length. Is a measurement at 2 m in the dynamic (shear-dominated) or convective regime?
 3. A dry sandy soil has a thermal diffusivity of 0.5 × 10⁻⁶ m² s⁻¹. Find the damping depth of the annual temperature wave.
-4. Wind blows from a forest ($z_0$ = 0.5 m) onto a meadow. Estimate the depth of the internal boundary layer 300 m downwind of the forest edge.
+4. Wind blows from a meadow onto a forest ($z_0$ = 0.5 m). Estimate the depth of the internal boundary layer 300 m downwind of the forest edge.
 5. For a measurement at 4 m over a surface with $z_{0m}$ = 2 cm, $d_0$ = 0.1 m and $u_*$ = 0.25 m s⁻¹, at what distance upwind is the footprint contribution largest?
 
 ```{admonition} Answers

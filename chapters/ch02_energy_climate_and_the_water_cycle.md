@@ -369,7 +369,7 @@ glue("q5", 0.07 * 2.0 * 600, display=False)
 - Myhre, G., Highwood, E. J., Shine, K. P., and Stordal, F. (1998). New estimates of radiative forcing due to well mixed greenhouse gases. *Geophysical Research Letters*, 25, 2715–2718.
 - North, G. R., Cahalan, R. F., and Coakley, J. A. (1981). Energy balance climate models. *Reviews of Geophysics and Space Physics*, 19, 91–121.
 - Sankarasubramanian, A., Vogel, R. M., and Limbrunner, J. F. (2001). Climate elasticity of streamflow in the United States. *Water Resources Research*, 37, 1771–1781.
-- Trenberth, K. E., Fasullo, J. T., and Kiehl, J. (2009). Earth's global energy budget. *Bulletin of the American Meteorological Society*, 90, 311–323.
+- Trenberth, K. E., Fasullo, J. T., and Kiehl, J. (2009). Earth's global energy budget. *Bulletin of the American Meteorological Society*, 90, 311–324.
 
 ## 2.12 Further reading
 

@@ -59,7 +59,7 @@ NASA products are distributed through **Earthdata** (earthdata.nasa.gov), which 
 - **Large-sample catchment datasets** combine streamflow, meteorological forcing and catchment attributes for hundreds to thousands of catchments, and are the best starting point for comparative studies: **CAMELS** for the United States (Addor et al., 2017) and its versions for other countries, and **Caravan**, a global collection in a common format (Kratzert et al., 2023).
 - **Global Runoff Data Centre** (GRDC, grdc.bafg.de): daily and monthly discharge from thousands of stations worldwide, provided on request for non-commercial use.
 - **National networks.** In the United States, the USGS National Water Information System (waterdata.usgs.gov) provides streamflow and groundwater levels; the `dataretrieval` Python package accesses it directly. In Korea, the Water Resources Management Information System (WAMIS, www.wamis.go.kr) provides water level, discharge, precipitation and evaporation records, and the Korea Meteorological Administration's open data portal (data.kma.go.kr) provides weather observations. Check the terms of use of each portal before redistributing data.
-- **Flux networks.** FLUXNET2015 (Pastorelli et al., 2020) and regional networks such as AmeriFlux and AsiaFlux provide eddy-covariance measurements of energy, water and carbon fluxes for the labs of Chapters 3 and 8.
+- **Flux networks.** FLUXNET2015 (Pastorello et al., 2020) and regional networks such as AmeriFlux and AsiaFlux provide eddy-covariance measurements of energy, water and carbon fluxes for the labs of Chapters 3 and 8.
 
 ## F.6 Good practice
 
@@ -78,7 +78,7 @@ NASA products are distributed through **Earthdata** (earthdata.nasa.gov), which 
 - Martens, B., et al. (2017). GLEAM v3: satellite-based land evaporation and root-zone soil moisture. *Geoscientific Model Development*, 10, 1903–1925.
 - Mu, Q., Zhao, M., and Running, S. W. (2011). Improvements to a MODIS global terrestrial evapotranspiration algorithm. *Remote Sensing of Environment*, 115, 1781–1800.
 - Muñoz-Sabater, J., et al. (2021). ERA5-Land: a state-of-the-art global reanalysis dataset for land applications. *Earth System Science Data*, 13, 4349–4383.
-- Pastorelli, G., et al. (2020). The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data. *Scientific Data*, 7, 225.
+- Pastorello, G., et al. (2020). The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data. *Scientific Data*, 7, 225.
 - Watkins, M. M., Wiese, D. N., Yuan, D.-N., Boening, C., and Landerer, F. W. (2015). Improved methods for observing Earth's time variable mass distribution with GRACE using spherical cap mascons. *Journal of Geophysical Research: Solid Earth*, 120, 2648–2671.
 - Yamazaki, D., Ikeshima, D., Sosa, J., Bates, P. D., Allen, G. H., and Pavelsky, T. M. (2019). MERIT Hydro: a high-resolution global hydrography map based on latest topography dataset. *Water Resources Research*, 55, 5053–5073.
 

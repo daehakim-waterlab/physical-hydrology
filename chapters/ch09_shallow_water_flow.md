@@ -188,7 +188,7 @@ k = \frac{S_0\, L}{h_0\, F_0^2} .
 \tag{9.9}
 \end{equation*}
 
-For $k \gtrsim 10$–20 the kinematic approximation is accurate. Overland flow on hillslopes almost always satisfies this, because $L$ is many thousands of depths. For flood waves in rivers, Ponce et al. (1978) proposed criteria based on the wave period $T$: the kinematic approximation is adequate when $T S_0 \sqrt{g/h_0} \ge 171$, and the diffusion approximation when $T S_0 \sqrt{g/h_0} \ge 30$. Steep rivers with long floods satisfy them; mild, large rivers, tidal reaches and rapidly varying flows below dams need the dynamic equations.
+For $k \gtrsim 10$–20 the kinematic approximation is accurate. Overland flow on hillslopes almost always satisfies this, because $L$ is many thousands of depths. For flood waves in rivers, Ponce et al. (1978) proposed criteria based on the wave period $T$: the kinematic approximation is adequate when $T S_0 u_0/h_0 \ge 171$, with $u_0$ the mean velocity, and the diffusion approximation when $T S_0 \sqrt{g/h_0} \ge 30$. Steep rivers with long floods satisfy them; mild, large rivers, tidal reaches and rapidly varying flows below dams need the dynamic equations.
 
 ### A numerical comparison
 
@@ -317,7 +317,7 @@ glue("x5", float(4 * 0.5e-4 / 1.0e-6), display=False)
 1. $C$ = {glue:text}`x1:.1f` m¹ᐟ² s⁻¹.
 2. $h_n$ = {glue:text}`x2_h:.2f` m, $c_k$ = {glue:text}`x2_c:.2f` m s⁻¹, travel time {glue:text}`x2_T:.1f` h.
 3. $F$ > {glue:text}`x3:.1f` (with $m$ = 3).
-4. $T S_0\sqrt{g/h_0}$ = {glue:text}`x4:.0f`: below 171, so not adequate; the diffusion approximation (≥ 30) is.
+4. $T S_0\sqrt{g/h_0}$ = {glue:text}`x4:.0f` ≥ 30, so the diffusion approximation is adequate. For subcritical flow $u_0 < \sqrt{g h_0}$, so $T S_0 u_0/h_0$ is smaller still and far below 171: the kinematic approximation is not adequate.
 5. Re = {glue:text}`x5:.0f`.
 ```
 
